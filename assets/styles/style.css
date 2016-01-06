@@ -1,3 +1,6 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
 header {
     height: 85px;
     background-color: blue;
@@ -12,7 +15,7 @@ header {
     min-height: 500px;
     display: inline-block;
     width: 70%;
-    border: 1px solid black;
+    
     text-align: center;  
 }
 .main-container-sidebar {
@@ -27,6 +30,32 @@ header {
 .main-container-sidebar.right {
     width:17%;
     float: right;
+}
+.article-title  {
+    border-top: 20px solid #cfe2f3;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+.side-article {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.side-article:hover{
+    background-color: magenta;
+    color: aqua;
+    margin: 40px 0;
+    border: 4px dotted tomato;
+}
+.img-placeholder {
+    height: 100px;
+    width: 180px;
+    background-color: blue;
+    
+}
+.side-article-title {
+    border-bottom: 1px solid #000;
 }
 footer {
     height: 145px;
