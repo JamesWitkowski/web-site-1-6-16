@@ -12,7 +12,7 @@ header {
    min-height: 600px;
 }
 .main-container-article {    
-    min-height: 500px;
+    min-height: 760px;
     display: inline-block;
     width: 70%;
     
@@ -36,8 +36,6 @@ header {
     font-size: 30px;
     padding-top: 20px;
 }
-
-
 .side-article {
     padding: 5px;
     margin-bottom: 15px;
